@@ -1,0 +1,153 @@
+[2022-02-28 13:11:01] Executing bootstrap tasks
+[2022-02-28 13:11:01] OpenJDK Runtime Environment 17.0.1+12
+[2022-02-28 13:11:01] Product org.eclipse.products.epp.package.java.2021-12
+[2022-02-28 13:11:01] Bundle org.eclipse.oomph.setup 1.22.0.v20211015-0620, build=5278, branch=a397d5c292b0ea2e68079e5b704e713bfeb15d34
+[2022-02-28 13:11:01] Bundle org.eclipse.oomph.setup.core 1.22.0.v20211021-1010, build=5278, branch=a397d5c292b0ea2e68079e5b704e713bfeb15d34
+[2022-02-28 13:11:01] Bundle org.eclipse.oomph.setup.p2 1.17.0.v20210601-0619, build=5278, branch=a397d5c292b0ea2e68079e5b704e713bfeb15d34
+[2022-02-28 13:11:01] Performing P2 Director (Eclipse IDE for Java Developers (2021-12) + JRE 17.0.2)
+[2022-02-28 13:11:01] Offline = false
+[2022-02-28 13:11:01] Mirrors = true
+[2022-02-28 13:11:01] Resolving 18 requirements from 4 repositoriesto C:\OCCA5\eclipse
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.22.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.22.0,5.0.0)
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.22.0,5.0.0)
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-02-28 13:11:01] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-02-28 13:11:01] Repository https://download.eclipse.org/justj/jres/17/updates/release/17.0.2
+[2022-02-28 13:11:01] Repository https://download.eclipse.org/technology/epp/packages/2021-12/202112021200
+[2022-02-28 13:11:01] Repository https://download.eclipse.org/releases/2021-12/202112081000
+[2022-02-28 13:11:01] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-02-28 13:12:09] Calculating requirements and dependencies.
+[2022-02-28 13:12:10] Computing prerequisite plan
+[2022-02-28 13:15:32] Collecting 3 artifacts from https://download.eclipse.org/releases/2021-12/202112081000
+[2022-02-28 13:15:54] Downloading org.eclipse.platform_root
+[2022-02-28 13:15:54] Downloading org.eclipse.rcp_root
+[2022-02-28 13:15:54] Downloading org.eclipse.platform.ide.executable.win32.win32.x86_64
+[2022-02-28 13:15:54] Collected 3 artifacts for https://download.eclipse.org/releases/2021-12/202112081000 in 22.547s
+[2022-02-28 13:15:54] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2021-12/202112021200
+[2022-02-28 13:15:54] Downloading epp.package.java.executable.win32.win32.x86_64
+[2022-02-28 13:15:54] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2021-12/202112021200 in 0.001s
+[2022-02-28 13:15:54] Collecting 1 artifacts from https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-02-28 13:15:54] Downloading org.eclipse.oomph.resources.edit
+[2022-02-28 13:16:37] Mirrored 1 artifacts from https://download.eclipse.org/oomph/drops/milestone/S20220223-052538-1.24.0-M3a/ at 0kb/s with 1 failures
+[2022-02-28 13:16:37] Collected 1 artifacts for https://download.eclipse.org/oomph/updates/milestone/latest in 42.322s
+[2022-02-28 13:16:59] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2022-02-28 13:16:59] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred while collecting items to be installed
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:291)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:553)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:345)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3851)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3779)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3760)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3638)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1349)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$33(SimpleVariablePage.java:1217)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1162)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=C__OCCA5_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+  ERROR: org.eclipse.equinox.p2.transport.ecf code=1002 Unable to connect to repository https://download.eclipse.org/oomph/drops/milestone/S20220223-052538-1.24.0-M3a/plugins/org.eclipse.oomph.resources.edit_1.12.0.v20220222-1048.jar
+  org.apache.http.conn.HttpHostConnectException: Connect to download.eclipse.org:443 [download.eclipse.org/198.41.30.199] failed: Connection timed out: no further information
+    at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+    at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+    at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+    at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+    at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+    at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+    at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+    at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+    at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+    at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+    at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+    at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+    at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+    at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+  Caused by: java.net.ConnectException: Connection timed out: no further information
+    at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+    at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+    at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+    at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+    at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+    at java.base/java.net.Socket.connect(Unknown Source)
+    at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:368)
+    at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+    at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+    at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+    at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+    at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+    at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+    at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+    at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+    at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+    at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+    at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+    at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+    at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+    ... 1 more
+
+[2022-02-28 13:16:59] 
+[2022-02-28 13:18:59] Executing bootstrap tasks
+[2022-02-28 13:18:59] OpenJDK Runtime Environment 17.0.1+12
+[2022-02-28 13:18:59] Product org.eclipse.products.epp.package.java.2021-12
+[2022-02-28 13:18:59] Bundle org.eclipse.oomph.setup 1.22.0.v20211015-0620, build=5278, branch=a397d5c292b0ea2e68079e5b704e713bfeb15d34
+[2022-02-28 13:18:59] Bundle org.eclipse.oomph.setup.core 1.22.0.v20211021-1010, build=5278, branch=a397d5c292b0ea2e68079e5b704e713bfeb15d34
+[2022-02-28 13:18:59] Bundle org.eclipse.oomph.setup.p2 1.17.0.v20210601-0619, build=5278, branch=a397d5c292b0ea2e68079e5b704e713bfeb15d34
+[2022-02-28 13:18:59] Performing P2 Director (Eclipse IDE for Java Developers (2021-12) + JRE 17.0.2)
+[2022-02-28 13:18:59] Offline = false
+[2022-02-28 13:18:59] Mirrors = true
+[2022-02-28 13:18:59] Resolving 18 requirements from 4 repositoriesto C:\OCCA5\eclipse
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.22.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.22.0,5.0.0)
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.22.0,5.0.0)
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-02-28 13:18:59] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-02-28 13:18:59] Repository https://download.eclipse.org/justj/jres/17/updates/release/17.0.2
+[2022-02-28 13:18:59] Repository https://download.eclipse.org/technology/epp/packages/2021-12/202112021200
+[2022-02-28 13:18:59] Repository https://download.eclipse.org/releases/2021-12/202112081000
+[2022-02-28 13:18:59] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-02-28 13:19:56] java.lang.NullPointerException: Cannot invoke "org.eclipse.equinox.log.ExtendedLogReaderService.addLogListener(org.osgi.service.log.LogListener, org.eclipse.equinox.log.LogFilter)" because "logReader" is null
+  at org.eclipse.core.internal.runtime.InternalPlatform.lambda$11(InternalPlatform.java:363)
+  at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(Unknown Source)
+  at org.eclipse.core.internal.runtime.InternalPlatform.getLog(InternalPlatform.java:358)
+  at org.eclipse.core.runtime.Plugin.getLog(Plugin.java:237)
+  at org.eclipse.oomph.util.OomphPlugin.getLog(OomphPlugin.java:221)
+  at org.eclipse.oomph.util.OomphPlugin.log(OomphPlugin.java:236)
+  at org.eclipse.oomph.util.OomphPlugin.log(OomphPlugin.java:247)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.cleanup(ProfileTransactionImpl.java:1107)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.resolve(ProfileTransactionImpl.java:577)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:342)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:904)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3851)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3779)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3760)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3638)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1349)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$33(SimpleVariablePage.java:1217)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1162)
+
+[2022-02-28 13:19:56] 
